@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>0803e6e9-ca09-4d21-ae5f-d3e171690677</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Twilio" Version="5.61.1" />
+    <PackageReference Include="OpenTok" Version="3.6.0" />
+  </ItemGroup>
+
+
+</Project>
